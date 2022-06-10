@@ -8,11 +8,17 @@
     <!-- <link rel="stylesheet" type="text/css" href="style.css"/> -->
 </head>
 <body>
-    <input id="clickMe" type="button" value="Generuoti">
-    <h2 id="random_name"></h2>
-    <h2 id="random_surname"></h2>
-    <h2 id="random_date"></h2>
-    <h2 id="random_country"></h2>
+    <input id="clickMe" type="button" value="Generuoti po viena">
+    
+    <label for="kiekis" class="kiekis">Kiekis</label>
+    <input required type="number"  min="0" name="kiekis" id="kiekis" class="kiekis" value/>
+    <input id="clickYou" type="button" value="Generuoti norimą kiekį">
+    
+    <h3>visas sąrašas bus išvestas consolėje</h3>
+    <p id="random_name"></p>
+    <p id="random_surname"></p>
+    <p id="random_date"></p>
+    <p id="random_country"></p>
     <script src="script.js"></script>
 </body>
 </html>
